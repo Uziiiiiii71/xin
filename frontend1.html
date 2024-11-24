@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #03035e, #09909f);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: #b5fbff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .start-btn {
+            background: #000000;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        .start-btn:hover {
+            background: #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">hai mba</div>
+        <div class="content">
+            <p>ini adalah ungkapan hati yang ingin aku bagikan kepadamu.</p>
+            <p>Silakan telan tombol di bawah untuk melanjutkan.</p>
+        </div>
+        <a href="buat kamu.html"><button class="start-btn">TEKAN AKU </button></a>
+    </div>
+
+</body>
+</html>
